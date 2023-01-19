@@ -1,6 +1,5 @@
 set(NAME FEXConfig)
 set(SRCS Main.cpp
-  ${CMAKE_SOURCE_DIR}/External/imgui/examples/imgui_impl_sdl.cpp
   ${CMAKE_SOURCE_DIR}/External/imgui/examples/imgui_impl_opengl3.cpp)
 
 find_library(EPOXY epoxy REQUIRED)
